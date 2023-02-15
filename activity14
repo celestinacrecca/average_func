@@ -1,0 +1,69 @@
+#include<stdio.h>
+
+int sub1();
+int sub2();
+int sub3();
+int sub4();
+int sub5();
+
+int main(){
+
+    int math, science, english, philosophy, cookery;
+
+    math = sub1();
+    science = sub2();
+    english = sub3();
+    philosophy = sub4();
+    cookery = sub5();
+
+    printf("%d plus %d plus %d plus %d plus %d is %d ", math, science, english, philosophy, cookery, math+science+english+philosophy+cookery);
+    printf("The average is %d", (math+ science+english+philosophy+cookery)/5);
+
+    return 0;
+}
+
+int sub1(){
+
+    int n1;
+    printf("Enter the grade: ");
+    scanf("%d", &n1);
+
+    return n1;
+}
+
+int sub2(){
+
+    int n2;
+    printf("Enter the grade: ");
+    scanf("%d", &n2);
+
+    return n2;
+}
+
+int sub3(){
+
+    int n3;
+    printf("Enter the grade: ");
+    scanf("%d", &n3);
+
+    return n3;
+}
+
+int sub4(){
+
+    int n4;
+    printf("Enter the grade: ");
+    scanf("%d", &n4);
+
+    return n4;
+}
+
+int sub5(){
+
+    int n5;
+    printf("Enter the grade: ");
+    scanf("%d", &n5);
+
+    return n5;
+}
+
